@@ -21,10 +21,25 @@ function App() {
             project below to view details when available.
           </p>
 
-          <ul className="projects-list">
-            <li><a href="/projects/project-1">Project 1 — Interactive Scene</a></li>
-            <li><a href="/projects/project-2">Project 2 — Physics Demo</a></li>
-            <li><a href="/projects/project-3">Project 3 — Shader Experiments</a></li>
+          <ul className="projects-grid">
+            <li>
+              <a href="/projects/project-1" className="project-card">
+                <img src="/placeholder.png" alt="Project 1 — Interactive Scene" />
+                <span>Project 1 — Interactive Scene</span>
+              </a>
+            </li>
+            <li>
+              <a href="/projects/project-2" className="project-card">
+                <img src="/placeholder.png" alt="Project 2 — Physics Demo" />
+                <span>Project 2 — Physics Demo</span>
+              </a>
+            </li>
+            <li>
+              <a href="/projects/project-3" className="project-card">
+                <img src="/placeholder.png" alt="Project 3 — Shader Experiments" />
+                <span>Project 3 — Shader Experiments</span>
+              </a>
+            </li>
           </ul>
         </section>
       </main>
