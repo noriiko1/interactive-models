@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "three": "^0.158.0",
+    "react-router-dom": "^6.14.0"
   },
   "devDependencies": {
     "@types/react": "^19.2.17",
