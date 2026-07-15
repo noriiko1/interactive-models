@@ -1,6 +1,7 @@
 import { useRef, useEffect } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
+import ProjectNav from '../components/ProjectNav'
 import './Project2.css'
 
 export default function Project2() {
@@ -70,6 +71,7 @@ export default function Project2() {
 
   return (
     <div className="project-page">
+      <ProjectNav current={2} />
       <div className="canvas-wrap" ref={mountRef} />
       <div className="project-info">
         <h2>Project 2 — Rotating Cube</h2>

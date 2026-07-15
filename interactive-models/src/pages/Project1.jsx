@@ -1,6 +1,7 @@
 import { useRef, useEffect } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
+import ProjectNav from '../components/ProjectNav'
 import './Project1.css'
 
 export default function Project1() {
@@ -69,6 +70,7 @@ export default function Project1() {
 
   return (
     <div className="project1-page">
+      <ProjectNav current={1} />
       <div className="canvas-wrap" ref={mountRef} />
       <div className="project-info">
         <h2>Project 1 — Interactive Scene</h2>
